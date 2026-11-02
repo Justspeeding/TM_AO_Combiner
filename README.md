@@ -1,3 +1,4 @@
+
 # TM_AO_Combiner
 
 A standalone Rust/egui Windows GUI for TrackMania texture work.
@@ -25,3 +26,6 @@ At 100% AO strength:
 output_rgb = rgb * ao
 At lower strength the result interpolates between the original RGB and the multiplied RGB.
 The AO input is converted to luminance using Rec.709 coefficients. RGB alpha is preserved by default and is never used as the AO multiplier.
+<img width="1182" height="852" alt="Schermafbeelding 2026-11-02 202601" src="https://github.com/user-attachments/assets/cf9343b3-8c88-48ac-ac82-07d1540e255b" />
+<img width="1182" height="852" alt="Schermafbeelding 2026-11-02 202959" src="https://github.com/user-attachments/assets/0c8864a3-41ff-4464-8979-688a51ab30be" />
+<img width="1182" height="852" alt="Schermafbeelding 2026-11-02 202949" src="https://github.com/user-attachments/assets/8a4f176b-1a74-43e2-a427-29c2de09901d" />
